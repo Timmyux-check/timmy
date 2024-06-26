@@ -1,0 +1,22 @@
+.love-emoji {
+    font-size: 36px;
+    color: #ff69b4; /* pink */
+    animation: float 3s infinite;
+}
+
+.heartbroken-emoji {
+    font-size: 36px;
+    color: #666; /* gray */
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

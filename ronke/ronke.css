@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.love-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.yes-button, .no-button {
+    background-color: #ff69b4; /* pink */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.yes-button {
+    border-radius: 50% 0 50% 0;
+}
+
+.no-button {
+    border-radius: 0 50% 0 50%;
+}
+
+.yes-button:hover, .no-button:hover {
+    background-color: #ff99cc; /* lighter pink */
+}
